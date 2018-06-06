@@ -1,5 +1,3 @@
-# imagenet_scripts
+# Imagenet Scripts
 
-Scripts to create imagenet dataset from downloaded files.
-
-
+Scripts to create ImageNet dataset from compressed files.
