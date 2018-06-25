@@ -5,6 +5,8 @@
 
 mkdir -p images/val
 tar -xvf ILSVRC2012_devkit_t12.tar.gz
-python create_val_script.py
+#sudo apt install python3-pip
+#sudo pip3 install scipy
+python3 create_val_script.py
 tar -xvf ILSVRC2012_img_val.tar -C images/val
 bash val_script.sh
